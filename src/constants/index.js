@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  eventwave
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +43,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "React JS Developer",
     icon: mobile,
   },
   {
@@ -197,6 +198,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Eventwave",
+    description:
+      "Created an event management website for current events happening in city, with features including event browsing, event posting, user authentication, and ticket booking functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "jwt",
+        color: "green-text-gradient",
+      },
+      {
+        name: "three.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: eventwave,
+    source_code_link: "https://github.com/sayyeddilshadali16/eventwave",
+  },
   {
     name: "Be A Champ learning app",
     description:
