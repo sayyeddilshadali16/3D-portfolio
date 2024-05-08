@@ -38,14 +38,15 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm Sayyed Dilshad Ali from
-        Nagpur, Maharashtra. Armed with a Bachelor's degree in Information
-        Technology, I specialize in MERN stack web development. Proficient in HTML5, CSS3,
-        Bootstrap, Tailwind CSS, JavaScript, jQuery, and React.js, I create visually appealing
-        and user-friendly interfaces. Experienced in MERN stack development,
-        I've built scalable web applications in just 6 months. I'm eager to
-        collaborate on innovative projects. Explore my portfolio and let's
-        connect to explore web development possibilities together!
+        I'm Sayyed Dilshad Ali from Nagpur, Maharashtra. Armed with a Bachelor's
+        degree in Information Technology, I specialize in MERN stack web
+        development. Proficient in HTML5, CSS3, Bootstrap, Tailwind CSS,
+        JavaScript, jQuery, JSON, React.js, Express.js, Node.js, MongoDB and
+        MongoDB Atlas I create visually appealing and user-friendly interfaces.
+        Experienced in MERN stack development, With 7 months of experienced in MERN Stack I've
+        built scalable web applications. I'm eager to collaborate on innovative
+        projects. Explore my portfolio and let's connect to explore web
+        development possibilities together!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
